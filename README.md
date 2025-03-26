@@ -1,6 +1,6 @@
-# 1.8-Lambdas
+# 1.8-Lambdas-N1
 
-Nivell 1
+📄Task description
 
 Per a tots els exercicis s'ha d'utilitzar l'API de Java Lambdas and Streams de Java 8+. 
 
