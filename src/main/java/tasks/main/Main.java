@@ -1,4 +1,4 @@
-package ex1.main;
+package tasks.main;
 
 import java.util.*;
 
@@ -43,7 +43,8 @@ public class Main {
         System.out.println(mixedList);
 
         System.out.println("\nExercici 7");
-        System.out.println(mixedList.reversed());
+        mixedList.sort( (x, y) -> Integer.compare(y.toString().length(), x.toString().length()));
+        System.out.println(mixedList);
 
         System.out.println("\nExercici 8");
         String string = "ITAcademy";
@@ -52,7 +53,6 @@ public class Main {
 
         string = reverseMethod.reverse(string);
         System.out.println(string);
-
 
     }
     public static List<String> makeListOfWordsWithLetterO (List <String> list) {
