@@ -4,7 +4,7 @@ import tasks.interfaces.*;
 
 import java.util.*;
 
-public abstract class Main implements Pi, ListOfStrings, ReverseMethod  {
+public class Main {
     public static void  main(String[] args) {
         String[] words = {
                 "apple", "orange", "table", "ocean", "window",
